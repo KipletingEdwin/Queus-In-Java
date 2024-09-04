@@ -19,5 +19,7 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
+        System.out.println(queue);
+
     }
 }
