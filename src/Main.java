@@ -14,11 +14,16 @@ public class Main {
 
         Queue<String> queue = new LinkedList<String>();
 
+
+
         queue.offer("Karen");
         queue.offer("Chad");
         queue.offer("Steve");
         queue.offer("Harold");
 
+        System.out.println(queue.isEmpty());
+
+        queue.poll();
         queue.poll();
 
 
