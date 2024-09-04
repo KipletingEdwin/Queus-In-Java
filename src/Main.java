@@ -22,7 +22,8 @@ public class Main {
         queue.offer("Harold");
 
         //System.out.println(queue.isEmpty());
-        System.out.println(queue.size());
+        //System.out.println(queue.size());
+        System.out.println(queue.contains("Steve"));
 
         queue.poll();
         queue.poll();
