@@ -21,16 +21,14 @@ public class Main {
         queue.offer("Steve");
         queue.offer("Harold");
 
-        System.out.println(queue.isEmpty());
+        //System.out.println(queue.isEmpty());
+        System.out.println(queue.size());
 
         queue.poll();
         queue.poll();
-
 
         //System.out.println(queue.peek());
-        System.out.println(queue);
-
-
+        //System.out.println(queue);
 
     }
 }
